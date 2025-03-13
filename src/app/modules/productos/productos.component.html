@@ -2,8 +2,12 @@
   <h1 class="text-3xl font-bold mb-6">Nuestros Productos</h1>
   <p class="mb-4">Aquí puedes encontrar una variedad de productos que ofrecemos.</p>
   
-  <div *ngFor="let category of (groupedProducts | keyvalue)">
-    <h2 class="text-2xl font-semibold mt-6">{{ category.key }}</h2>
+  <div *ngFor="let category of (groupedProducts | keyvalue)" class="mb-12 mt-12">
+    <h2 class="text-2xl font-semibold mt-6">
+      <i class="fas fa-box text-blue-500 text-2xl mr-2"></i>
+      {{ category.key }}
+    </h2>
+    <div class="category-separator border-t-2 border-gray-300"></div>
     <div class="products-grid">
       <app-product-card *ngFor="let product of category.value" [product]="product"></app-product-card>
     </div>
