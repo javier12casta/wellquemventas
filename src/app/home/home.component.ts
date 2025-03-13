@@ -14,44 +14,42 @@ export class HomeComponent {
   topProducts = [
     {
       id: '1',
-      name: 'Desengrasante Industrial',
-      price: 18.00,
-      oldPrice: 21.00,
-      image: 'https://wellquem.com/wp-content/uploads/2024/01/HIPOCLORITO-SODIO-WEB-300x300.png',
+      name: 'WELLZINC - Galvanizante en frío',
+      price: 620.00,
+      image: 'https://example.com/wellzinc.png',
       badge: {
-        type: 'discount' as const,
-        value: 10
+        type: 'new' as const,
+        text: ''
       }
     },
     {
       id: '2',
-      name: 'Limpiador Multiusos',
-      price: 18.00,
-      image: 'https://wellquem.com/wp-content/uploads/2024/01/HIPOCLORITO-SODIO-WEB-300x300.png',
+      name: 'ELECTRIWELL - Limpiador solvente dieléctrico',
+      price: 720.00,
+      image: 'https://example.com/electriwell.png',
       badge: {
-        type: 'hot' as const,
-        text: 'HOT'
+        type: 'new' as const,
+        text: ''
       }
     },
     {
       id: '3',
-      name: 'Detergente Industrial',
-      price: 16.00,
-      oldPrice: 19.00,
-      image: 'https://wellquem.com/wp-content/uploads/2024/01/HIPOCLORITO-SODIO-WEB-300x300.png',
+      name: 'REMOWELL - Removedor y desincrustante orgánico de concreto',
+      price: 680.00,
+      image: 'https://example.com/remowell.png',
       badge: {
-        type: 'discount' as const,
-        value: 12
+        type: 'new' as const,
+        text: ''
       }
     },
     {
       id: '4',
-      name: 'Sanitizante',
-      price: 20.00,
-      image: 'https://wellquem.com/wp-content/uploads/2024/01/HIPOCLORITO-SODIO-WEB-300x300.png',
+      name: 'BRILLALUM - Limpiador no ácido para aluminio',
+      price: 650.00,
+      image: 'https://example.com/brillalum.png',
       badge: {
-        type: 'hot' as const,
-        text: 'HOT'
+        type: 'new' as const,
+        text: ''
       }
     }
   ];
