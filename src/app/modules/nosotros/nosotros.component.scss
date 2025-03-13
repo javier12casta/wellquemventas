@@ -1,4 +1,65 @@
-div {
+.about-container {
   padding: 20px;
   text-align: center;
+  background-color: #f9f9f9; // Fondo suave
+  border-radius: 10px; // Bordes redondeados
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); // Sombra sutil
+  margin: 20px auto; // Centrar el contenedor
+  max-width: 800px; // Ancho máximo del contenedor
+
+  h2 {
+    color: #063C88; // Color del título
+    font-size: 2rem; // Tamaño del título
+    font-weight: bold; // Negrita
+    margin-bottom: 10px; // Espaciado inferior
+  }
+
+  h3 {
+    color: #063C88; // Color del subtítulo
+    font-size: 1.5rem; // Tamaño del subtítulo
+    margin-top: 20px; // Espaciado superior
+  }
+
+  p {
+    font-size: 1.1rem; // Tamaño del párrafo
+    margin: 10px 0; // Espaciado vertical
+  }
+
+  .about-content {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column; // Colocar tarjetas en columna
+    align-items: center; // Centrar tarjetas
+
+    .about-item {
+      display: flex;
+      align-items: center; // Alinear ícono y texto
+      margin: 15px 0; // Espaciado entre elementos
+      font-size: 1rem;
+      width: 100%; // Ancho completo
+
+      &.card {
+        background-color: #fff; // Fondo blanco para la tarjeta
+        border-radius: 8px; // Bordes redondeados
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); // Sombra sutil
+        padding: 15px; // Espaciado interno
+        max-width: 600px; // Ancho máximo de la tarjeta
+        text-align: left; // Alinear texto a la izquierda
+
+        i {
+          margin-right: 10px; // Espaciado entre ícono y texto
+          color: #ff4444; // Color del ícono
+          font-size: 1.5rem; // Tamaño del ícono
+        }
+
+        .card-content {
+          h4 {
+            font-size: 1.2rem; // Tamaño del subtítulo en la tarjeta
+            color: #063C88; // Color del subtítulo
+            margin-bottom: 5px; // Espaciado inferior
+          }
+        }
+      }
+    }
+  }
 } 
