@@ -1,7 +1,7 @@
 export interface Badge {
-  type: 'hot' | 'discount'; // Asegúrate de que solo acepte estos valores
-  text?: string;
+  type?: 'hot' | 'discount' | 'new'; 
   value?: number;
+  text?: string;
 }
 
 export interface Product {
@@ -9,6 +9,6 @@ export interface Product {
   name: string;
   price: number;
   image: string;
-  badge: Badge; // Usa la interfaz Badge aquí
+  badge: Badge; 
   category: string; // Agrega esta línea para incluir la categoría
 } 

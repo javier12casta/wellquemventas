@@ -1,18 +1,14 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
-
+import { Badge } from '../../../core/models/product-list.model';
 interface Product {
   id: string;
   name: string;
   price: number;
   oldPrice?: number;
   image: string;
-  badge?: {
-    text?: string;
-    type: 'hot' | 'discount';
-    value?: number;
-  };
+  badge?: Badge;
 }
 
 @Component({
