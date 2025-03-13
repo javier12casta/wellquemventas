@@ -1,0 +1,11 @@
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-6">Nuestros Productos</h1>
+  <p class="mb-4">Aquí puedes encontrar una variedad de productos que ofrecemos.</p>
+  
+  <div *ngFor="let category of (groupedProducts | keyvalue)">
+    <h2 class="text-2xl font-semibold mt-6">{{ category.key }}</h2>
+    <div class="products-grid">
+      <app-product-card *ngFor="let product of category.value" [product]="product"></app-product-card>
+    </div>
+  </div>
+</div> 

@@ -1,0 +1,54 @@
+<section class="banner">
+  <div class="banner-content">
+    <h1>Bienvenido a Wellquem</h1>
+    <p>Descubre nuestros productos de limpieza y desinfección de alta calidad.</p>
+    <a href="/productos" class="btn">Ver Productos</a>
+  </div>
+</section>
+
+<section class="top-products">
+  <div class="container">
+    <h2 class="section-title mt-5">Productos Destacados</h2>
+    
+    <div class="products-grid">
+      <app-product-card
+        *ngFor="let product of topProducts"
+        [product]="product">
+      </app-product-card>
+    </div>
+
+    <div class="features">
+      <div class="feature-item">
+        <i class="fas fa-truck"></i>
+        <div class="feature-content">
+          <h3>Envío gratis</h3>
+          <p>En pedidos superiores a $49.00</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <i class="fas fa-undo"></i>
+        <div class="feature-content">
+          <h3>15 días de devolución</h3>
+          <p>Garantía de devolución de dinero</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <i class="fas fa-lock"></i>
+        <div class="feature-content">
+          <h3>Pago seguro</h3>
+          <p>Protegido por PayPal</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <i class="fas fa-gift"></i>
+        <div class="feature-content">
+          <h3>Ofertas y regalos</h3>
+          <p>En todos los pedidos</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 

@@ -1,0 +1,23 @@
+<header class="header">
+  <div class="header-container">
+    <!-- Logo -->
+    <div class="logo">
+      <a routerLink="/">
+        <img src="https://wellquem.com/wp-content/uploads/2022/05/Logo-Wellquem.png" alt="Wellquem Logo" class="w-1/2">
+      </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <ul>
+        <li *ngFor="let item of navigationItems">
+          <a [routerLink]="item.route">
+            <i [class]="item.icon"></i>
+            {{ item.label }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
