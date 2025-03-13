@@ -92,7 +92,7 @@
   background-image: url("https://wellquem.com/wp-content/uploads/2024/04/IMG_2610_-store.webp"); // Nueva URL del banner
   background-size: cover;
   background-position: center;
-  padding: 4rem 0;
+  padding: 7rem 0;
   text-align: center;
   color: white;
 
@@ -215,5 +215,86 @@
         }
       }
     }
+  }
+}
+
+.illustration {
+  position: relative; // Para posicionar el contenido sobre la imagen
+  margin-top: 2rem;
+  overflow: hidden; // Asegúrate de que el contenido no se salga del contenedor
+
+  .illustration-content {
+    position: relative;
+
+    .illustration-image {
+      width: 50%; // Hacer que la imagen ocupe todo el ancho
+      height: auto; // Mantener la proporción de la imagen
+      border-radius: 8px; // Bordes redondeados
+    }
+
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(20%, -50%); // Centrar el contenido
+      color: white; // Color del texto
+      text-align: center; // Centrar texto
+      background-color: rgba(0, 0, 0, 0.5); // Fondo semi-transparente
+      padding: 1rem;
+      border-radius: 8px; // Bordes redondeados
+      width: 90%; // Ajustar el ancho del overlay
+      max-width: 500px; // Limitar el ancho máximo
+      height: 40%; // Ajustar la altura del overlay
+
+      h2 {
+        font-size: 1.5rem; // Tamaño del título
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 0.9rem; // Tamaño del texto
+        margin-bottom: 1rem;
+      }
+
+      .btn {
+        background-color: #ff4444; // Color del botón
+        color: white;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #e63939; // Color del botón al pasar el mouse
+        }
+      }
+    }
+  }
+}
+
+// Estilos responsivos
+@media (max-width: 768px) {
+  .illustration {
+    .illustration-content {
+      .illustration-image {
+        width: 100%; // Hacer que la imagen ocupe todo el ancho
+        height: auto; // Mantener la proporción de la imagen
+      }
+      .overlay {
+        transform: translate(-50%, -50%);
+        h2 {
+          font-size: 1.2rem; // Tamaño del título en móviles
+        }
+  
+        p {
+          font-size: 0.8rem; // Tamaño del texto en móviles
+        }
+  
+        .btn {
+          padding: 0.4rem 0.8rem; // Ajustar el tamaño del botón en móviles
+        }
+      }
+    }
+    
   }
 } 
