@@ -19,5 +19,21 @@
       </ul>
     </nav>
 
+    <!-- Mobile Menu Button -->
+    <div class="mobile-menu" (click)="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" *ngIf="isMenuOpen">
+    <ul>
+      <li *ngFor="let item of navigationItems">
+        <a [routerLink]="item.route">
+          <i [class]="item.icon + ' text-blue-500'"></i>
+          {{ item.label }}
+        </a>
+      </li>
+    </ul>
   </div>
 </header>

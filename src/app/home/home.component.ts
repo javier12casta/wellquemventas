@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductCardComponent } from '../shared/components/product-card/product-card.component';
-
+import { CategoryCardComponent } from '../shared/components/category-card/category-card.component';
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, ProductCardComponent],
+  imports: [CommonModule, ProductCardComponent, CategoryCardComponent,RouterModule],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })

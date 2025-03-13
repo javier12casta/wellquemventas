@@ -12,6 +12,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class HeaderComponent {
   cartTotal: number = 0;
   cartItemCount: number = 0;
+  isMenuOpen: boolean = false;
 
   navigationItems = [
     { label: 'Inicio', route: '/home', icon: 'fa-solid fa-house' },
@@ -20,4 +21,8 @@ export class HeaderComponent {
     { label: 'Catálogo', route: '/catalogo', icon: 'fa-solid fa-book' },
     { label: 'Contacto', route: '/contacto', icon: 'fa-solid fa-phone' }
   ];
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }
