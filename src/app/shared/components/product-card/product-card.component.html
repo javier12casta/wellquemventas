@@ -8,8 +8,8 @@
   <div class="product-info">
     <h3>{{ product.name }}</h3>
     <div class="price">
-      <span class="current-price"> ${{ product.price.toFixed(2) }}</span>
-      <!-- <span class="old-price" *ngIf="product.oldPrice"> ${{ product.oldPrice.toFixed(2) }}</span> -->
+      <span class="current-price"> {{ product.price | currency:'COP $':'symbol':'1.0-0' }}</span>
+      <span class="presentation" *ngIf="product?.presentation"> {{ product.presentation || '' }}</span>
     </div>
   </div>
 </div> 

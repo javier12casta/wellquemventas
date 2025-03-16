@@ -3,10 +3,12 @@ export interface Product {
   name: string;
   description: string;
   category: string;
-  imageUrl: string;
+  image: string;
   price: number;
   unit: string;
   inStock: boolean;
   technicalSheet?: string;
   safetySheet?: string;
+  presentation?: string;
+  city?: string;
 } 

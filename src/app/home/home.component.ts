@@ -15,42 +15,58 @@ export class HomeComponent {
     {
       id: '1',
       name: 'WELLZINC - Galvanizante en frío',
-      price: 620.00,
+      price: 368900,
       image: 'https://example.com/wellzinc.png',
       badge: {
         type: 'new' as const,
         text: ''
-      }
+      },
+      category: 'LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL',
+      description: 'Galvanizante en frío para protección de metales.',
+      city: 'Bogotá',
+      presentation: 'Caneca 20lt'
     },
     {
       id: '2',
       name: 'ELECTRIWELL - Limpiador solvente dieléctrico',
-      price: 720.00,
+      price: 36890,
       image: 'https://example.com/electriwell.png',
       badge: {
         type: 'new' as const,
         text: ''
-      }
+      },
+      category: 'LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL',
+      description: 'Limpiador solvente dieléctrico.',
+      city: 'Bogotá',
+      presentation: 'Aerosol'
     },
     {
       id: '3',
       name: 'REMOWELL - Removedor y desincrustante orgánico de concreto',
-      price: 680.00,
+      price: 83300,
       image: 'https://example.com/remowell.png',
       badge: {
         type: 'new' as const,
         text: ''
-      }
+      },
+      category: 'LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL',
+      description: 'Removedor y desincrustante orgánico de concreto.',
+      city: 'Bogotá',
+      presentation: 'Galon'
     },
     {
       id: '4',
       name: 'BRILLALUM - Limpiador no ácido para aluminio',
-      price: 650.00,
+      price: 414120,
       image: 'https://example.com/brillalum.png',
       badge: {
         type: 'new' as const,
         text: ''
-      }
+      },
+      category: 'LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL',
+      description: 'Limpiador no ácido para aluminio.',
+      city: 'Bogotá',
+      presentation: 'Garrafa 20lt'
     }
   ];
 } 

@@ -10,5 +10,8 @@ export interface Product {
   price: number;
   image: string;
   badge: Badge; 
-  category: string; // Agrega esta línea para incluir la categoría
+  category: string;
+  description?: string;
+  city?: string;
+  presentation?: string;
 } 

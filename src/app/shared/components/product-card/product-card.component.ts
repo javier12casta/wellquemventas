@@ -9,6 +9,10 @@ interface Product {
   oldPrice?: number;
   image: string;
   badge?: Badge;
+  category: string;
+  description?: string;
+  city?: string;
+  presentation?: string;
 }
 
 @Component({
