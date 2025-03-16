@@ -52,7 +52,7 @@ export class HomeComponent {
       category: 'LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL',
       description: 'Removedor y desincrustante orgánico de concreto.',
       city: 'Bogotá',
-      presentation: 'Galon'
+      presentation: 'Galón'
     },
     {
       id: '4',
