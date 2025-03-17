@@ -16,7 +16,7 @@ export class HomeComponent {
       id: '1',
       name: 'WELLZINC - Galvanizante en frío',
       price: 368900,
-      image: 'https://example.com/wellzinc.png',
+      image: 'https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218787/wellqem/Productos%20Especializados/f2zelfe8m5da2hprgon7.jpg',
       badge: {
         type: 'new' as const,
         text: ''
@@ -24,13 +24,13 @@ export class HomeComponent {
       category: 'LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL',
       description: 'Galvanizante en frío para protección de metales.',
       city: 'Bogotá',
-      presentation: 'Caneca 20lt'
+      presentation: 'Galón'
     },
     {
       id: '2',
       name: 'ELECTRIWELL - Limpiador solvente dieléctrico',
       price: 36890,
-      image: 'https://example.com/electriwell.png',
+      image: 'https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218780/wellqem/Aerosoles%20Industriales/hhhvyvghbvlieknqvdry.jpg',
       badge: {
         type: 'new' as const,
         text: ''
@@ -44,7 +44,7 @@ export class HomeComponent {
       id: '3',
       name: 'REMOWELL - Removedor y desincrustante orgánico de concreto',
       price: 83300,
-      image: 'https://example.com/remowell.png',
+      image: 'https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218787/wellqem/Productos%20dise%C3%B1ados%20para%20concreto/jvvp5ogrjhbiih5fpgqu.png',
       badge: {
         type: 'new' as const,
         text: ''
@@ -58,7 +58,7 @@ export class HomeComponent {
       id: '4',
       name: 'BRILLALUM - Limpiador no ácido para aluminio',
       price: 414120,
-      image: 'https://example.com/brillalum.png',
+      image: 'https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218783/wellqem/Limpiadores%20Industriales/twztzlt5f1pkcioxizvi.jpg',
       badge: {
         type: 'new' as const,
         text: ''
