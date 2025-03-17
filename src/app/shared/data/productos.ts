@@ -7,7 +7,7 @@ export const limpadores: Product[] = [
         "price": 628320,
         "image": "https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218782/wellqem/Limpiadores%20el%C3%A9ctricos%20y%20electr%C3%B3nicos%20a%20granel/og0aniwbgooryieymhyo.jpg",
         "badge": { "type": "new", "text": "" },
-        "category": "LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL",
+        "category": "Limpiadores eléctricos y electrónicos a granel",
         "description": "Limpiador solvente dieléctrico.",
         "city": "Bogotá",
         "presentation": "Caneca 20lt"
@@ -18,7 +18,7 @@ export const limpadores: Product[] = [
         "price": 547400,
         "image": "https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218782/wellqem/Limpiadores%20el%C3%A9ctricos%20y%20electr%C3%B3nicos%20a%20granel/irude1e9sezmz6c7ufwp.jpg",
         "badge": { "type": "new", "text": "" },
-        "category": "LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL",
+        "category": "Limpiadores eléctricos y electrónicos a granel",
         "description": "Limpiador para equipos electrónicos.",
         "city": "Bogotá",
         "presentation": "Caneca 20lt"
@@ -29,7 +29,7 @@ export const limpadores: Product[] = [
         "price": 706860,
         "image": "https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218782/wellqem/Limpiadores%20el%C3%A9ctricos%20y%20electr%C3%B3nicos%20a%20granel/z5mi4t4oas89au6sxoti.jpg",
         "badge": { "type": "new", "text": "" },
-        "category": "LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL",
+        "category": "Limpiadores eléctricos y electrónicos a granel",
         "description": "Limpiador dieléctrico no inflamable.",
         "city": "Bogotá",
         "presentation": "Caneca 20lt"
@@ -40,7 +40,7 @@ export const limpadores: Product[] = [
         "price": 452200,
         "image": "https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218782/wellqem/Limpiadores%20el%C3%A9ctricos%20y%20electr%C3%B3nicos%20a%20granel/rdbnek5amzxjhb6hicp7.jpg",
         "badge": { "type": "new", "text": "" },
-        "category": "LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL",
+        "category": "Limpiadores eléctricos y electrónicos a granel",
         "description": "Solvente limpiador.",
         "city": "Bogotá",
         "presentation": "Caneca 20lt"
@@ -51,7 +51,7 @@ export const limpadores: Product[] = [
         "price": 932960,
         "image": "https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218782/wellqem/Limpiadores%20el%C3%A9ctricos%20y%20electr%C3%B3nicos%20a%20granel/uet4ra6tpio0pmr0zf1b.jpg",
         "badge": { "type": "new", "text": "" },
-        "category": "LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL",
+        "category": "Limpiadores eléctricos y electrónicos a granel",
         "description": "Limpiador dieléctrico cítrico.",
         "city": "Bogotá",
         "presentation": "Caneca 20lt"
@@ -62,7 +62,7 @@ export const limpadores: Product[] = [
         "price": 6637840,
         "image": "https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218782/wellqem/Limpiadores%20el%C3%A9ctricos%20y%20electr%C3%B3nicos%20a%20granel/grhg537m3fqwjrkeweli.jpg",
         "badge": { "type": "new", "text": "" },
-        "category": "LIMPIADORES ELÉCTRICOS Y ELECTRÓNICOS A GRANEL",
+        "category": "Limpiadores eléctricos y electrónicos a granel",
         "description": "Desalojador de humedad.",
         "city": "Bogotá",
         "presentation": "Caneca 20lt"
