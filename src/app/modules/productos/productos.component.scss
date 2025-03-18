@@ -64,7 +64,7 @@ p {
       display: flex;
       align-items: center; // Alinear imagen y texto
       justify-content: center; // Centrar contenido
-      background-color: #f0f0f0; // Fondo suave
+      background-color: #063C88; // Fondo suave
       border-radius: 8px; // Bordes redondeados
       padding: 10px;
       margin: 20px auto; // Centrar el badge
@@ -83,11 +83,13 @@ p {
         h4 {
           margin: 0; // Sin margen
           font-size: 1.1rem; // Tamaño del nombre
+          color: #ffffff;
         }
 
         p {
           margin: 0; // Sin margen
           font-size: 0.9rem; // Tamaño del título
+          color: #ffffff;
         }
       }
     }
