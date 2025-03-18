@@ -6,10 +6,15 @@
     </div>
   </div>
   <div class="product-info">
-    <h3>{{ product.name }}</h3>
+    <h3 class="text-lg font-semibold text-gray-800">{{ product.name }}</h3>
     <div class="price">
-      <span class="current-price"> {{ product.price | currency:'COP $':'symbol':'1.0-0' }}</span>
+      <span class="current-price"> {{ product.price | currency:'COP $':'symbol':'1.0-0' }} {{ product.city }}</span>      
+    </div>
+    <div class="presentation">
       <span class="presentation" *ngIf="product?.presentation"> {{ product.presentation || '' }}</span>
+    </div>
+    <div class="description">
+      <span class="description text-sm text-gray-500" *ngIf="product?.description"> {{ product.description || '' }}</span>
     </div>
   </div>
 </div> 

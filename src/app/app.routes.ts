@@ -5,6 +5,7 @@ import { NosotrosComponent } from './modules/nosotros/nosotros.component';
 import { ProductosComponent } from './modules/productos/productos.component';
 import { CatalogoComponent } from './modules/catalogo/catalogo.component';
 import { ContactoComponent } from './modules/contacto/contacto.component';
+import { CategoriaProductosComponent } from './modules/productos/categoria-productos/categoria-productos.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/productos', pathMatch: 'full' },
@@ -13,6 +14,7 @@ export const routes: Routes = [
   { path: 'catalogo', component: CatalogoComponent },
   { path: 'nosotros', component: NosotrosComponent },
   { path: 'contacto', component: ContactoComponent },
+  { path: 'categoria/:categoria', component: CategoriaProductosComponent },
   { path: '**', redirectTo: '/home' } // Ruta para manejar páginas no encontradas
 ];
 

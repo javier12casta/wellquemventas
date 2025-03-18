@@ -1,3 +1,31 @@
+<section class="top-products">
+  <div class="container">
+    <h1 class="section-title mt-5 text-2xl font-bold text-center mb-10">Productos Destacados</h1>
+    
+    <div class="products-grid">
+      <app-product-card
+        *ngFor="let product of topProducts"
+        [product]="product">
+      </app-product-card>
+    </div>
+
+  </div>
+</section> 
+
+<section class="category-section">
+  <div class="container">
+    <h2 class="section-title mt-5 text-2xl font-bold text-center mb-10">Categorías de Productos</h2>
+    <div class="categories-grid">
+      <app-category-card categoryName="Productos Especializados" iconClass="fas fa-cogs"></app-category-card>
+      <app-category-card categoryName="Productos Diseñados para Concreto" iconClass="fas fa-tools"></app-category-card>
+      <app-category-card categoryName="Aerosoles Industriales" iconClass="fas fa-spray-can"></app-category-card>
+      <app-category-card categoryName="Tratamientos para Aguas de Calderas y Sistemas de Enfriamiento" iconClass="fas fa-water"></app-category-card>
+      <app-category-card categoryName="Desengrasantes Industriales" iconClass="fas fa-broom"></app-category-card>
+      <app-category-card categoryName="Limpieza y Desinfección" iconClass="fas fa-shield-alt"></app-category-card>
+    </div>
+  </div>
+</section>
+
 
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-3xl font-bold mb-6 mt-10">Nuestros Productos</h1>
@@ -15,7 +43,7 @@
     </div>
   </div>
 </div>
- 
+
 <section class="asesorias">
   <div class="container">
     <h1 class="section-title mt-5 text-2xl font-bold text-center mb-10">Asesoría personalizada a tu alcance</h1>
