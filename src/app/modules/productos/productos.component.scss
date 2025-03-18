@@ -23,3 +23,73 @@ p {
   background-color: #ccc; /* Color de la línea */
   margin: 20px 0; /* Espaciado arriba y abajo */
 } 
+
+
+
+
+.asesorias {
+  padding: 40px 0;
+
+  .asesorias-grid {
+    display: flex;
+    justify-content: space-around; // Espaciado entre elementos
+    margin-bottom: 20px;
+
+    .asesoria-item {
+      text-align: center;
+      max-width: 200px; // Ancho máximo de cada tarjeta
+      margin: 10px;
+
+      i {
+        font-size: 2rem; // Tamaño del ícono
+        color: #ff4444; // Color del ícono
+      }
+
+      h3 {
+        font-size: 1.2rem; // Tamaño del título
+        margin: 10px 0; // Espaciado vertical
+      }
+
+      p {
+        font-size: 0.9rem; // Tamaño del texto
+      }
+    }
+  }
+
+  .asesor-info {
+    text-align: center;
+    margin-top: 30px;
+
+    .badge {
+      display: flex;
+      align-items: center; // Alinear imagen y texto
+      justify-content: center; // Centrar contenido
+      background-color: #f0f0f0; // Fondo suave
+      border-radius: 8px; // Bordes redondeados
+      padding: 10px;
+      margin: 20px auto; // Centrar el badge
+      max-width: 400px; // Ancho máximo del badge
+
+      .asesor-image {
+        width: 80px; // Ancho de la imagen
+        height: 80px; // Altura de la imagen
+        border-radius: 50%; // Hacer la imagen circular
+        margin-right: 10px; // Espaciado entre imagen y texto
+      }
+
+      .asesor-details {
+        text-align: left; // Alinear texto a la izquierda
+
+        h4 {
+          margin: 0; // Sin margen
+          font-size: 1.1rem; // Tamaño del nombre
+        }
+
+        p {
+          margin: 0; // Sin margen
+          font-size: 0.9rem; // Tamaño del título
+        }
+      }
+    }
+  }
+}

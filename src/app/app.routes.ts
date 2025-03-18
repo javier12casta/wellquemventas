@@ -7,7 +7,7 @@ import { CatalogoComponent } from './modules/catalogo/catalogo.component';
 import { ContactoComponent } from './modules/contacto/contacto.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/productos', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'productos', component: ProductosComponent },
   { path: 'catalogo', component: CatalogoComponent },

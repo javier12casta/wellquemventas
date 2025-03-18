@@ -242,7 +242,7 @@ export const desengrasantes: Product[] = [
         "id": "d8",
         "name": "DESENGRASANTE WM",
         "price": 1761200,
-        "image": "https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218783/wellqem/Desengrasantes%20Industriales/desengrasantewm.jpg",
+        "image": "https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218782/wellqem/Desengrasantes%20Industriales/lkrnmscv6ibiknhm69r3.jpg",
         "badge": { "type": "new", "text": "" },
         "category": "Desengrasantes Industriales",
         "description": "Solvente dieléctrico natural",
