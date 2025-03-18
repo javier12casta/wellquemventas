@@ -289,7 +289,7 @@ export const limpiadores_industriales: Product[] = [
         "id": "li2",
         "name": "LSA 2",
         "price": 547400,
-        "image": "https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218783/wellqem/Limpiadores%20Industriales/pptlyuak6ywrrfizs0vw.jpg",
+        "image": "https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218783/wellqem/Limpiadores%20Industriales/etlwzd6wfpphtddhhpjk.jpg",
         "badge": { "type": "new", "text": "" },
         "category": "Limpiadores Industriales",
         "description": "Limpiador ácido inhibido concentrado para aluminio y acero inoxidable",
