@@ -24,8 +24,12 @@ p {
   margin: 20px 0; /* Espaciado arriba y abajo */
 } 
 
-
-
+.banner-section {
+  background-image: url('https://res.cloudinary.com/dozzcc1l1/image/upload/v1745452681/wellqem/assets/jh5wdhli7wajhk2i5oun.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .asesorias {
   padding: 40px 0;
@@ -100,7 +104,6 @@ p {
   padding: 4rem 0;
   background-color: #f8f9fa;
 }
-
 
 .category-section {
   padding: 4rem 0;
