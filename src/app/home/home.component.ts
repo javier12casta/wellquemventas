@@ -16,7 +16,7 @@ export class HomeComponent {
       id: '1',
       name: 'WELLZINC - Galvanizante en frío',
       price: 368900,
-      image: 'https://res.cloudinary.com/dozzcc1l1/image/upload/v1742218787/wellqem/Productos%20Especializados/f2zelfe8m5da2hprgon7.jpg',
+      image: 'https://res.cloudinary.com/dozzcc1l1/image/upload/v1754706606/Imagen_de_WhatsApp_2025-08-08_a_las_12.05.45_e622c2bd_uisvw7.jpg',
       badge: {
         type: 'new' as const,
         text: ''
